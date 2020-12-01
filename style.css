@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav{
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+}
+ul{
+    padding-left: 0;
+    margin-top: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+hr{
+    border: 1px solid lightgray;
+    margin: 20px auto;
+}
+/* Search Bar */
+#search-box{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#search-box input{
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#search-btn{
+    height: 35px;
+    border-radius: 5px;
+    width: 80px;
+    border: 2px solid green;
+    background-color: black;
+    color: green;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+/* Heading */
+#heading{
+    margin-left: auto;
+    text-align: center;
+}
+#notes-container{
+    margin: auto;
+    height: auto;
+    width: 60%;
+    border: 1px solid lightgray;
+    padding: 25px;
+    border-radius: 5px;
+}
+#notes-container textarea{
+    width: 90%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.btn{
+    display: block;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.notes, #notes{
+    margin: auto;
+    width: 60%;
+}
+.notes-div{
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    vertical-align: top;
+    overflow: auto;
+    word-wrap: break-word;
+    box-shadow: 5px 5px 5px grey;
+}
+.notes-head{
+    text-align: center;
+}
+/* .notes-content{
+
+} */
