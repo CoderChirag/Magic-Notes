@@ -81,21 +81,27 @@ hr{
     display: inline-block;
     width: 25%;
     margin: 15px;
-    padding: 10px;
-    border: 2px solid lightgray;
+    padding: 20px;
+    border: none;
     vertical-align: top;
     overflow: auto;
     word-wrap: break-word;
-    box-shadow: 5px 5px 15px orange;
-    background-color: palegreen;
+    box-shadow: 5px 5px 10px black;
+    background-color: greenyellow;
+    border-radius: 5%;
 }
 .notes-div p{
+    font-family: sans-serif;
     color: orangered;
+    font-size: 1.2em;
+    font-weight: 500; 
 }
 .notes-div h1, .notes-div p{
     white-space: pre-wrap;
 }
 .notes-head{
+    font-family: cursive;
+    font-weight: 800;
     text-align: center;
 }
 /* .notes-content{
