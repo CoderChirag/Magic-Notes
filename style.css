@@ -58,10 +58,11 @@ hr{
     padding: 25px;
     border-radius: 5px;
 }
-#notes-container textarea{
+#notes-container textarea, #notes-container input{
     width: 90%;
     border: 1px solid lightgray;
     border-radius: 5px;
+    padding: 15px;
 }
 .btn{
     display: block;
@@ -85,7 +86,14 @@ hr{
     vertical-align: top;
     overflow: auto;
     word-wrap: break-word;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 15px orange;
+    background-color: palegreen;
+}
+.notes-div p{
+    color: orangered;
+}
+.notes-div h1, .notes-div p{
+    white-space: pre-wrap;
 }
 .notes-head{
     text-align: center;
